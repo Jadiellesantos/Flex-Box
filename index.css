@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.caixa{
+    width: 500px;
+    height: auto;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+}
+
+.BlocoUm{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+.BlocoDois{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+.BlocoTres{
+    width: 50px;
+    height: 50px;
+    background-color:aqua;
+    text-align: center;
+    padding: 10px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+}
+
+#flexreverse{
+    display: flex;
+    flex-direction:row-reverse;
+
+}
+
+#centro{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
